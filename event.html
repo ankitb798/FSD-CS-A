@@ -12,19 +12,34 @@ div{
 }
     </style>
 
-    <script>
-        function abes()
-{
-    document.getElementById("aaa").innerHTML="hello"
-}    </script>
+    
 </head>
 
-<body>
+<body id="adi">
     <div id="aaa">
-
-    <button onclick="abes()">Click</button>
-    </div>
+<button onclick="red()">RED</button>
+<button onclick="green()">GREEN</button>
+<button onclick="blue()">BLUE</button>
+  
     
     
 </body>
+<script>
+    function green()
+    {
+        document.getElementById('adi').style.backgroundColor="green";
+    }
+    function blue()
+    {
+        document.getElementById('adi').style.backgroundColor="blue";
+    }
+        function abes()
+{
+    document.getElementById("aaa").innerHTML="hello"
+}    
+
+function red(){
+    document.getElementById('adi').style.backgroundColor="red";
+}
+    </script>
 </html>
