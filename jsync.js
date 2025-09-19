@@ -6,9 +6,6 @@ function register(){
     },9000)
    })
 }
-    
-    
-
 function sendEmail(){
      return new Promise((resolve,reject)=>{
         setTimeout(()=>{
@@ -16,7 +13,6 @@ function sendEmail(){
       resolve();
     },3000)
    })
-    
 }
 function login(){
     return new Promise((resolve,reject)=>{
